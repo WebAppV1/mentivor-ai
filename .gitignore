@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Model weights & large binaries (never commit these)
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+
+# Generated outputs (keep structure, not bulk images)
+outputs/**/*.png
+outputs/**/*.jpg
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env

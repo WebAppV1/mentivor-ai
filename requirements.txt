@@ -1,0 +1,2 @@
+# Phase 1: no ML dependencies yet.
+# Local tooling only — added incrementally as each phase requires it.
