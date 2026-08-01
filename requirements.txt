@@ -1,2 +1,6 @@
 # Phase 1: no ML dependencies yet.
 # Local tooling only — added incrementally as each phase requires it.
+
+# Phase 3: dataset curation tooling (local, lightweight - no ML runtime)
+Pillow>=10.0.0
+ImageHash>=4.3.1

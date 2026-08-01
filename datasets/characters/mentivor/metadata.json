@@ -1,0 +1,252 @@
+{
+  "character_id": "mentivor",
+  "import_run": "2026-08-01T02:35:18.575748+00:00",
+  "source_folder": "C:\\Users\\MITESH\\Desktop\\Mentivor\\mentivor-ai\\datasets\\characters\\mentivor\\raw",
+  "total_candidates": 20,
+  "accepted_count": 20,
+  "rejected_count": 0,
+  "rejected": [],
+  "accepted": [
+    {
+      "filename": "mentivor_0001.png",
+      "original_filename": "1.png",
+      "resolution": {
+        "width": 1672,
+        "height": 941
+      },
+      "file_hash": "9313d1c6f9ec142923bbee5cacf51903c27a35a23b6b164d671c0d9e83230eaa",
+      "perceptual_hash": "b46b4a9d0dc26af1",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.525767+00:00"
+    },
+    {
+      "filename": "mentivor_0002.png",
+      "original_filename": "10.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "13e0670fbd24215ecfb85574bd4ef1984d842d8309836dd30e7e6c90d9b23fa0",
+      "perceptual_hash": "eed4087e3532b730",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.528707+00:00"
+    },
+    {
+      "filename": "mentivor_0003.png",
+      "original_filename": "11.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "993aad0dc488041abcab2d0ac4bddbb3a9c6d9b374ec068b981b1120dad4621f",
+      "perceptual_hash": "8d2534a5c1b3cdcb",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.530707+00:00"
+    },
+    {
+      "filename": "mentivor_0004.png",
+      "original_filename": "12.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "e4d1f4b0d626eca5fb43e81e850c81e169773598bde53bb95220311b50376201",
+      "perceptual_hash": "d1fc93131c8c6573",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.532906+00:00"
+    },
+    {
+      "filename": "mentivor_0005.png",
+      "original_filename": "13.png",
+      "resolution": {
+        "width": 1536,
+        "height": 1024
+      },
+      "file_hash": "c85b7bace2e3e71dd055c36215fd00dfb32dac66a8b8dcec4a8f9a16b8b66d13",
+      "perceptual_hash": "97ee9392e4a38742",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.536035+00:00"
+    },
+    {
+      "filename": "mentivor_0006.png",
+      "original_filename": "14.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "ea10f21856162dbc26f5b2dd679307b3d3150153d2cdeee2624199cd2a12967c",
+      "perceptual_hash": "cf713630c3d94e4c",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.538317+00:00"
+    },
+    {
+      "filename": "mentivor_0007.png",
+      "original_filename": "15.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "d00b95119423e807555893b1cad231ab6a68c5a56f70806cf7c57bbd45bcac2f",
+      "perceptual_hash": "bd817f702716d249",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.542848+00:00"
+    },
+    {
+      "filename": "mentivor_0008.png",
+      "original_filename": "16.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "ba494e0ca3471473020b023f459999f95033e2502339f91d66359d6af9ddbefa",
+      "perceptual_hash": "b9817ff08696f824",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.542848+00:00"
+    },
+    {
+      "filename": "mentivor_0009.png",
+      "original_filename": "17.png",
+      "resolution": {
+        "width": 1536,
+        "height": 1024
+      },
+      "file_hash": "4db3ec51284993f01d5051a211c56f220df19f29fb1afbc00b674cad3f5dbee8",
+      "perceptual_hash": "e17f1c0c1ac3e5ac",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.542848+00:00"
+    },
+    {
+      "filename": "mentivor_0010.png",
+      "original_filename": "18.png",
+      "resolution": {
+        "width": 1672,
+        "height": 941
+      },
+      "file_hash": "947dae21c2a241697a31c9569b53bbf323e6b1f100bc755d07f9ea726a2265eb",
+      "perceptual_hash": "9ff0e01f54f0a10f",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.542848+00:00"
+    },
+    {
+      "filename": "mentivor_0011.png",
+      "original_filename": "2.png",
+      "resolution": {
+        "width": 1672,
+        "height": 941
+      },
+      "file_hash": "37b4799e983919bddad91ac1a3bc214407f2623ba96b41fef4587ec2af9abcda",
+      "perceptual_hash": "d49ff0a0c8cec6d4",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.542848+00:00"
+    },
+    {
+      "filename": "mentivor_0012.png",
+      "original_filename": "20.png",
+      "resolution": {
+        "width": 1672,
+        "height": 941
+      },
+      "file_hash": "922f45f5f737abe10dd4800ce2016b79c6968a3905d69ff4a9850a27732e341c",
+      "perceptual_hash": "9cc35439c1c3729f",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.554496+00:00"
+    },
+    {
+      "filename": "mentivor_0013.png",
+      "original_filename": "21.png",
+      "resolution": {
+        "width": 1672,
+        "height": 941
+      },
+      "file_hash": "ac86bd842a466e5276a327c897e9c6fea1dc4cb5fca239ea02d69f39209a071e",
+      "perceptual_hash": "bcc338e1c33b1e0e",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.554496+00:00"
+    },
+    {
+      "filename": "mentivor_0014.png",
+      "original_filename": "3.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "7bd599ad212aaa0bc2c9cd9a4aa73c705fe4c63536b5825e46622c8e2c9d349a",
+      "perceptual_hash": "948b7bb484cf49b1",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.554496+00:00"
+    },
+    {
+      "filename": "mentivor_0015.png",
+      "original_filename": "4.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "3d18a219fc20fdc067e8c3b9d68e5fa1ee9f3dc6a3619b68595f0671b04f38b5",
+      "perceptual_hash": "942b6bb4964f4935",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.554496+00:00"
+    },
+    {
+      "filename": "mentivor_0016.png",
+      "original_filename": "5.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "e0ee17c4afd883e7d7517047d257f3b42a6838aa3ef82f44db1181a31fefae74",
+      "perceptual_hash": "978099ede3a636b0",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.554496+00:00"
+    },
+    {
+      "filename": "mentivor_0017.png",
+      "original_filename": "6.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "9b0aca39aa741e6d3275d4b87b76cadbe2292ae2c783fbe4aeefdb55794f3dad",
+      "perceptual_hash": "e10f5af11f62ab81",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.554496+00:00"
+    },
+    {
+      "filename": "mentivor_0018.png",
+      "original_filename": "7.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "33b75747fed34c974b84505f705c32c83311a3dfbb20324a035e0b7047084aa5",
+      "perceptual_hash": "94e46b3d95125a6b",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.571737+00:00"
+    },
+    {
+      "filename": "mentivor_0019.png",
+      "original_filename": "8.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "d5cfc19c2ded17269dd26178a5d477de3cdb85a3c7dabacf194d6dfdcfa62ac3",
+      "perceptual_hash": "909ca3331fccd4d3",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.573737+00:00"
+    },
+    {
+      "filename": "mentivor_0020.png",
+      "original_filename": "9.png",
+      "resolution": {
+        "width": 1448,
+        "height": 1086
+      },
+      "file_hash": "c60cbdc68a6a07d01e9fae5c64163db5f85d9bf106d1a39eb57df0b552ea8fac",
+      "perceptual_hash": "c70c31324cc7decd",
+      "status": "accepted_pending_manual_review",
+      "imported_at": "2026-08-01T02:35:18.575748+00:00"
+    }
+  ],
+  "note": "Technical validation only (corrupt/resolution/duplicate). Visual correctness (hair, outfit, anatomy, style match) requires manual review before these images are used for training."
+}
