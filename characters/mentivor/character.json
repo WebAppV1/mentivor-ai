@@ -2,11 +2,13 @@
   "id": "mentivor_main",
   "name": "Mentivor",
   "version": "v1",
+  
   "trigger_token": "mntvrchar",
   "persistent": true,
   "identity_locked": true,
 
   "role": "protagonist",
+  "status": "draft",
 
   "identity": {
     "head": {

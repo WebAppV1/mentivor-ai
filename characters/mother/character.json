@@ -1,0 +1,41 @@
+{
+  "id": "mentivor_mother",
+  "name": "Mentivor's Mother",
+  "version": "v1",
+  "trigger_token": null,
+  "persistent": true,
+  "identity_locked": false,
+
+  "role": "family",
+  "status": "awaiting_references",
+
+  "identity": {
+    "note": "No physical attributes defined yet. Per project rules, permanent characteristics must not be invented before approved reference images are provided. This record exists only to reserve her place in the character registry and demonstrate the registration workflow."
+  },
+
+  "canonical_outfit": null,
+  "approved_outfits": {},
+
+  "identity_lock_rules": {
+    "must_not_drift": [],
+    "may_vary_freely": []
+  },
+
+  "negative_constraints": [
+    "must not resemble Mentivor with different hair",
+    "must not photorealistic",
+    "must not invent canonical appearance before reference approval"
+  ],
+
+  "references": {
+    "directory": "characters/mother/references/",
+    "count": 0,
+    "note": "Awaiting approved reference images from project owner before identity fields can be populated."
+  },
+
+  "training": {
+    "lora_path": null,
+    "embedding_path": null,
+    "trained": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mentivor AI Character Record",
+  "type": "object",
+  "required": [
+    "id", "name", "version", "trigger_token", "persistent",
+    "identity_locked", "role", "status"
+  ],
+  "properties": {
+    "id": { "type": "string", "description": "unique lowercase_snake_case identifier" },
+    "name": { "type": "string" },
+    "version": { "type": "string", "description": "e.g. v1, v2 - never overwrite silently" },
+    "trigger_token": { "type": "string", "description": "unique LoRA training token, e.g. mntvrchar" },
+    "persistent": { "type": "boolean" },
+    "identity_locked": { "type": "boolean" },
+    "role": {
+      "type": "string",
+      "enum": ["protagonist", "family", "recurring_secondary", "occupational_secondary"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "awaiting_references", "references_approved", "trained", "production_ready"],
+      "description": "workflow state per section 16's Add Character pipeline"
+    },
+    "identity": {
+      "type": "object",
+      "description": "canonical physical attributes - only populate fields with confirmed/approved references"
+    },
+    "canonical_outfit": { "type": ["string", "null"] },
+    "approved_outfits": { "type": "object" },
+    "identity_lock_rules": {
+      "type": "object",
+      "properties": {
+        "must_not_drift": { "type": "array", "items": { "type": "string" } },
+        "may_vary_freely": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "negative_constraints": { "type": "array", "items": { "type": "string" } },
+    "references": {
+      "type": "object",
+      "required": ["directory", "count"],
+      "properties": {
+        "directory": { "type": "string" },
+        "count": { "type": "integer", "minimum": 0 },
+        "note": { "type": "string" }
+      }
+    },
+    "training": {
+      "type": "object",
+      "properties": {
+        "lora_path": { "type": ["string", "null"] },
+        "embedding_path": { "type": ["string", "null"] },
+        "trained": { "type": "boolean" }
+      }
+    }
+  }
+}

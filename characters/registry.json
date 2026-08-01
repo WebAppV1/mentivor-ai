@@ -1,0 +1,18 @@
+{
+  "characters": [
+    {
+      "id": "mentivor_main",
+      "name": "Mentivor",
+      "role": "protagonist",
+      "status": "draft",
+      "path": "characters/mentivor/character.json"
+    },
+    {
+      "id": "mentivor_mother",
+      "name": "Mentivor's Mother",
+      "role": "family",
+      "status": "awaiting_references",
+      "path": "characters/mother/character.json"
+    }
+  ]
+}
