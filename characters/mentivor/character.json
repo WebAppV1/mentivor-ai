@@ -8,7 +8,7 @@
   "identity_locked": true,
 
   "role": "protagonist",
-  "status": "draft",
+  "status": "trained",
 
   "identity": {
     "head": {
@@ -99,8 +99,8 @@
   },
 
   "training": {
-    "lora_path": null,
+    "lora_path": "characters/mentivor/lora/mentivor_character_v1.safetensors",
     "embedding_path": null,
-    "trained": false
+    "trained": true
   }
 }
