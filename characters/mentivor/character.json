@@ -2,7 +2,7 @@
   "id": "mentivor_main",
   "name": "Mentivor",
   "version": "v1",
-  
+
   "trigger_token": "mntvrchar",
   "persistent": true,
   "identity_locked": true,
@@ -31,8 +31,15 @@
     "mouth": {
       "style": "minimal, simple expressions",
       "allowed_emotions": [
-        "curiosity", "confusion", "concern", "sadness", "relief",
-        "thoughtfulness", "surprise", "quiet happiness", "determination"
+        "curiosity",
+        "confusion",
+        "concern",
+        "sadness",
+        "relief",
+        "thoughtfulness",
+        "surprise",
+        "quiet happiness",
+        "determination"
       ],
       "constraint": "no exaggerated cartoon comedy"
     },
@@ -66,13 +73,22 @@
 
   "identity_lock_rules": {
     "must_not_drift": [
-      "face_shape", "face_color", "eye_style", "hair_silhouette",
-      "hair_color", "body_proportions", "default_outfit_colors",
+      "face_shape",
+      "face_color",
+      "eye_style",
+      "hair_silhouette",
+      "hair_color",
+      "body_proportions",
+      "default_outfit_colors",
       "overall_illustration_language"
     ],
     "may_vary_freely": [
-      "camera_angle", "pose", "emotion", "environment",
-      "lighting_condition", "object_interaction"
+      "camera_angle",
+      "pose",
+      "emotion",
+      "environment",
+      "lighting_condition",
+      "object_interaction"
     ]
   },
 
@@ -101,6 +117,8 @@
   "training": {
     "lora_path": "characters/mentivor/lora/mentivor_character_v1.safetensors",
     "embedding_path": null,
-    "trained": true
+    "trained": true,
+    "recommended_lora_strength": 1.2,
+    "prompting_notes": "Outfit (navy hoodie, black pants, white sneakers) must be explicitly stated in every prompt - not reliably carried by trigger token alone. Add negative prompt: text, logo, letters, writing."
   }
 }
